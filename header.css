@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	background-color: rgba(43,58,53, 0.5);
+	width: 100%;
+	height: 75px;
+}
+.butt{
+	text-align: left;
+	margin-left: 2.5%;
+}
+
+.inst {
+  text-decoration: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Bitter', sans-serif;
+	float: right;
+	margin-top: 15px;
+	margin-right: 2.5%;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #6d6565;
+  background: rgba(47,46,46, 0.7);
+  transition: .3s;
+	border: 0;
+	 outline-color:;
+	 outline-width: 20px;
+
+}
+.inst:hover {
+  background: #2EE59D;
+  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  color: rgba(47,46,46,0.7);
+  transform: translateY(-7px);
+}
+
+#blurringTextG{
+	text-align:left;
+margin-left:2.5%;
+margin-bottom: 150px;
+}
+.d12 {
+	width: 100%;
+height: 75px;
+background: rgba(47,46,46, 0.6);
+transition: 0.3s;
+font-weight: 600;
+border: 0;
+ box-shadow:  0 0 20px 2px rgba(46,229,157,0.1);
+ }
+.cnts{
+	font-family: 'Bitter',bold, serif;
+	font-size:20px;
+	text-decoration:none;
+margin-left:500px;
+
+}
+
+.blurringTextG{
+	color:transparent;
+font-family: 'Bitter',bold, serif;
+	font-size:50px;
+	text-decoration:none;
+	font-weight:normal;
+	font-style:normal;
+	display:inline-block;
+	text-shadow: rgb(153, 165, 160) 0 0 0;
+	animation-name:bounce_blurringTextG;
+		-o-animation-name:bounce_blurringTextG;
+		-ms-animation-name:bounce_blurringTextG;
+		-webkit-animation-name:bounce_blurringTextG;
+		-moz-animation-name:bounce_blurringTextG;
+	animation-duration:3.19s;
+		-o-animation-duration:3.19s;
+		-ms-animation-duration:3.19s;
+		-webkit-animation-duration:3.19s;
+		-moz-animation-duration:3.19s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
+}
+
+
+
+@keyframes bounce_blurringTextG{
+	0%{
+		text-shadow: rgb(46,229,157, 0.6) 0 0 0;
+	}
+
+	50%{
+		text-shadow: rgb(46,229,157, 0.6) 0 0 25px;
+	}
+
+	100%{
+		text-shadow: rgb(46,229,157, 0.6) 0 0 0;
+	}
+}
+
+@-o-keyframes bounce_blurringTextG{
+	0%{
+		text-shadow: rgb(46,229,157) 0 0 0;
+	}
+
+	50%{
+		text-shadow: rgb(46,229,157) 0 0 25px;
+	}
+
+	100%{
+		text-shadow: rgb(46,229,157) 0 0 0;
+	}
+}
+
+@-ms-keyframes bounce_blurringTextG{
+	0%{
+		text-shadow: rgb(46,229,157) 0 0 0;
+	}
+
+	50%{
+		text-shadow: rgb(46,229,157) 0 0 25px;
+	}
+
+	100%{
+		text-shadow: rgb(46,229,157) 0 0 0;
+	}
+}
+
+@-webkit-keyframes bounce_blurringTextG{
+	0%{
+		text-shadow: rgb(46,229,157) 0 0 0;
+	}
+
+	50%{
+		text-shadow: rgb(46,229,157) 0 0 25px;
+	}
+
+	100%{
+		text-shadow: rgb(46,229,157) 0 0 0;
+	}
+}
+
+@-moz-keyframes bounce_blurringTextG{
+	0%{
+		text-shadow: rgb(46,229,157) 0 0 0;
+	}
+
+	50%{
+		text-shadow: rgb(46,229,157) 0 0 25px;
+	}
+
+	100%{
+		text-shadow: rgb(46,229,157) 0 0 0;
+	}
+}
+@import "compass/css3";
+
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
